@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Workflow explicitTransitions="true" name="Create Application" type="BatchProvisioning">
+  <Variable editable="true" input="true" name="App_Name">
+    <Description>The name of the app to be created</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Entitlement_Values">
+    <Description>A list of entitlement objects</Description>
+  </Variable>
+  <Variable editable="true" initializer="spadmin" input="true" name="App_Implementers">
+    <Description>A list of the implementers for the application</Description>
+  </Variable>
+  <Variable editable="true" initializer="spadmin" input="true" name="App_Owners">
+    <Description>A list of the application owners</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Requestable_Attrs">
+    <Description>A list of the attributes which are requestable</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Entitlements">
+    <Description>A list of the attributes which are entitlements.</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Attrs">
+    <Description>A list of the attributes (the schema) on the application</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_CorrelatingAttr">
+    <Description>The correlating attribute for the application</Description>
+  </Variable>
+  <Variable editable="true" initializer="NA" input="true" name="App_Desc">
+    <Description>The description of the application</Description>
+  </Variable>
+  <Variable editable="true" initializer="spadmin" input="true" name="App_Owner">
+    <Description>The owner of the application</Description>
+  </Variable>
+  <Variable editable="true" initializer="script:return false;" input="true" name="is_SOM_Connected">
+  	<Description>Boolean to differentiate SOM and non-SOM</Description>
+  </Variable>
+  <Variable editable="true" initializer="NA" input="true" name="SOM_Details">
+  	<Description>SOM Detials if applicable</Description>
+  </Variable>
+  <Variable name="Created_Objects">
+    <Description>List of the objects created by step one to create the Regex that step 2 uses</Description>
+  </Variable>
+  <Variable editable="true" initializer="AgCo" input="true" name="App_System">
+    <Description>The application&amp;#39;s target system.  To be used on the export.</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_IdentityAttr">
+    <Description>The attribute that ids the unique accounts on the application</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Type">
+    <Description>The type of asset: AD_Group, Delimited_File</Description>
+  </Variable>
+  <Variable editable="true" input="true" name="App_Owner_Email"/>
+  <Variable editable="true" input="true" name="App_Implementer_Email"/>
+  <Variable editable="true" initializer="spadmin" input="true" name="App_Grantors"/>
+  <Variable editable="true" input="true" name="App_Grantors_Email"/>
+	<Step icon="Provision" name="Create Application" posX="263" posY="10" resultVariable="Created_Objects">
+    <Arg name="App_Attrs" value="ref:App_Attrs"/>
+    <Arg name="App_CorrelatingAttr" value="ref:App_CorrelatingAttr"/>
+    <Arg name="App_Entitlements" value="ref:App_Entitlements"/>
+    <Arg name="App_Owner_Email" value="ref:App_Owner_Email"/>
+    <Arg name="App_Owners" value="ref:App_Owners"/>
+    <Arg name="App_Implementer_Email" value="ref:App_Implementer_Email"/>
+    <Arg name="App_Name" value="ref:App_Name"/>
+    <Arg name="App_Desc" value="ref:App_Desc"/>
+    <Arg name="App_Requestable_Attrs" value="ref:App_Requestable_Attrs"/>
+    <Arg name="App_Implementers" value="ref:App_Implementers"/>
+    <Arg name="App_IdentityAttr" value="ref:App_IdentityAttr"/>
+    <Arg name="App_Entitlement_Values" value="ref:App_Entitlement_Values"/>
+    <Arg name="App_Owner" value="ref:App_Owner"/>
+    <Arg name="Created_Objects" value="ref:Created_Objects"/>
+    <Arg name="App_Type" value="ref:App_Type"/>
+    <Arg name="is_SOM_Connected" value="ref:is_SOM_Connected"/>
+    <Arg name="SOM_Details" value="ref:SOM_Details"/>
+    <Description>From the given arguments create the new workgroups, application, managed attributes, and aggregation task</Description>
+    <Script>
+      <Source>
+      	<![CDATA[
+      		import com.dupont.myaccess.Runner;
+			Map args = workflow.getVariables().getMap();
+			Runner runner = new Runner(context, log, args);
+			return runner.execute();
+      	]]></Source>
+    </Script>
+    <Transition to="Export Objects"/>
+  </Step>
+  <Step icon="Task" name="Export Objects" posX="265" posY="151">
+    <Arg name="App_System" value="ref:App_System"/>
+    <Arg name="Created_Objects" value="ref:Created_Objects"/>
+    <Arg name="App_Name" value="ref:App_Name"/>
+    <Script>
+      <Source>
+      	<![CDATA[
+      		import com.dupont.myaccess.ExportXMLObjects;
+			ExportXMLObjects export = new ExportXMLObjects(Created_Objects,App_System,App_Name,log,context);
+			export.runExportTask();
+      	]]>
+      	</Source>
+    </Script>
+ 	 </Step>  
+</Workflow>

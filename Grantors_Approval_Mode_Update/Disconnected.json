@@ -1,0 +1,53 @@
+{
+	"workflowArgs": {
+		"App_System": "AgCo Asset",
+		"App_Type": "Disconnected",
+		"App_Name": "Blackline_test_three",
+		"App_Desc": "Account reconciliation system for consolidated entities.",
+		"App_Owner": "ce4845",
+		"is_SOM_Connected":false,
+        "SOM_Details":"NA",
+		"App_CorrelatingAttr": "myAccessID",
+		"App_IdentityAttr": "myAccessID",
+		"App_Attrs": [
+			"myAccessID",
+			"systemAccess",
+			"email"
+		],
+		"App_Entitlements": [
+			"systemAccess"
+		],
+		"App_Requestable_Attrs": [
+			"systemAccess"
+		],
+		"App_Owners": [
+			"ce48451"
+		],
+		"App_Implementers": [
+			"rm70371",
+			"wy32751",
+			"in46251"
+		],
+		"App_Grantors":[
+			"wy32751",
+			"in46251"
+		],		
+		"App_Owner_Email": "Rama.Venkatra1ngan@dupont.com",
+		"App_Implementer_Email": "Rama.Venk1atrangan@dupont.com",
+		"App_Grantors_Email" :"in46251@local.com",
+		"App_Entitlement_Values": [
+			{
+				"Attribute": "systemAccess",
+				"Value": "Blackline - Asia Pacific - Preparer",
+				"DisplayName": "Blackline - Asia Pacific - Preparer",
+				"Description": "Requesting this access will give you access to the Blackline - Asia Pacific - Preparer asset in the Blackline Account Reconciliation tool.",
+				"Owner": [
+					"ce4845"
+				],
+				"Owner_Email": "Rama.Venkatr1angan@dupont.com",
+				"Is_Requestable": true,
+				"Approval_Mode": "Both"
+			}
+        ]
+    }
+}

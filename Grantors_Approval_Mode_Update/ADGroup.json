@@ -1,0 +1,56 @@
+{
+    "workflowArgs": {
+       "App_System": "AgCo",
+       "App_Type": "ADGroup",
+       "App_Name": "AD_Application_Sample",
+       "App_Entitlement_Values": [
+            {
+                "Attribute": "memberOf",
+                "Value": "SUPER_ADMIN",
+                "DisplayName": "SUPER_ADMIN",
+                "Description": "SUPER_ADMIN",
+                "Owner": [
+                    "spadmin"
+                ],
+                "Owner_Email": "user001@local.com",
+                "Is_Requestable": true,
+				"Approval_Mode": "Both"
+            },
+            {
+                "Attribute": "memberOf",
+                "Value": "ADMIN",
+                "DisplayName": "ADMIN",
+                "Description": "ADMIN",
+                "Owner": [
+                    "spadmin"
+                ],
+                "Owner_Email": "user001@local.com",
+                "Is_Requestable": true,
+				"Approval_Mode": "ManagerOnly"
+            },
+            {
+                "Attribute": "memberOf",
+                "Value": "GUEST",
+                "DisplayName": "GUEST",
+                "Description": "GUEST",
+                "Owner": [
+                    "spadmin"
+                ],
+                "Owner_Email": "user001@local.com",
+                "Is_Requestable": true,
+				"Approval_Mode": "AssetOwnerOnly"
+            },
+            {
+                "Attribute": "memberOf",
+                "Value": "USER",
+                "DisplayName": "USER",
+                "Description": "USER",
+                "Owner": [
+                    "spadmin"
+                ],
+                "Owner_Email": "user001@local.com",
+                "Is_Requestable": true
+            }
+        ]
+    }
+}
