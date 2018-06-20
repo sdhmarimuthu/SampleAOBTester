@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ObjectConfig PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ObjectConfig name="ManagedAttribute">
+  <ObjectAttribute defaultValue="Both" displayName="Approval Mode" editMode="Permanent" extendedNumber="1" name="approvalMode" required="true">
+    <AllowedValues>
+      <String>AssetOwnerOnly</String>
+      <String>ManagerOnly</String>
+      <String>Both</String>
+    </AllowedValues>
+  </ObjectAttribute>
+</ObjectConfig>
