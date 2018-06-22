@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+Hello from this side try 2!
+=======
 Hello from this side try 4!
+>>>>>>> 5a0ef4e25e39c94d72d34f169590a171fd7931e8
