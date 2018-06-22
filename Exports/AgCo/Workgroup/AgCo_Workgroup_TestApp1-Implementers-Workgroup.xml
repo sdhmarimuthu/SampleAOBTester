@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity name="TestApp1-Implementers-Workgroup" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="TestApp1-Implementers-Workgroup"/>
+      <entry key="email" value="Rama.Venk1atrangan@dupont.com"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="rm70371"/>
+  </Owner>
+</Identity>
