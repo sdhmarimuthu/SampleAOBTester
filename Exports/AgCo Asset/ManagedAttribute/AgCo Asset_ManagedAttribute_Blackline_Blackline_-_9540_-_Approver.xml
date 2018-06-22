@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 9540 - Approver" hash="70d4b9988c1ebd04899b977a5a371ebe39621f97" requestable="true" type="Entitlement" value="Blackline - 9540 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 9540 - Approver asset in the Blackline Account Reconciliation tool.  Legal Entity: AG MX 2, Inc."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 8852 - Financial Manager" hash="817f4d4b33ad81e9c695d003ecde436236a50183" requestable="true" type="Entitlement" value="Blackline - 8852 - Financial Manager">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 8852 - Financial Manager asset in the Blackline Account Reconciliation tool.  Legal Entity: South Pole Biogroup Inc."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

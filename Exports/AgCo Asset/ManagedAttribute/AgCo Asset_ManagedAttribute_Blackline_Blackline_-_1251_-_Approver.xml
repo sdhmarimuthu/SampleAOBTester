@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 1251 - Approver" hash="3e3d772ba308edb22ff9d117566867a8af2d65e3" requestable="true" type="Entitlement" value="Blackline - 1251 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 1251 - Approver asset in the Blackline Account Reconciliation tool.  Legal Entity: DuPont de Ecuador SA"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

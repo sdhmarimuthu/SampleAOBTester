@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 8976 - Preparer" hash="57b45f247341bc6e3abf1d40224b1e1634e2f48a" requestable="true" type="Entitlement" value="Blackline - 8976 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 8976 - Preparer asset in the Blackline Account Reconciliation tool.  Legal Entity: Orion PM APAC, Inc."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

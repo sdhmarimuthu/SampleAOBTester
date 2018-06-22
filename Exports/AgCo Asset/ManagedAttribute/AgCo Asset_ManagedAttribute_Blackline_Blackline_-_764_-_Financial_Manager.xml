@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 764 - Financial Manager" hash="dafcf2d04273271a126be9c4ffe54ad0e1379780" requestable="true" type="Entitlement" value="Blackline - 764 - Financial Manager">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 764 - Financial Manager asset in the Blackline Account Reconciliation tool.  Legal Entity: 3044873 Nova Scotia Company"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
