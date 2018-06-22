@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Application connector="sailpoint.connector.DelimitedFileConnector" name="TestApp5" type="DelimitedFile">
+  <AccountCorrelationConfig>
+    <Reference class="sailpoint.object.CorrelationConfig" name="myAccessID-CorrelationConfig"/>
+  </AccountCorrelationConfig>
+  <Attributes>
+    <Map>
+      <entry key="SOMDetails" value="NA"/>
+      <entry key="delimiter" value=","/>
+      <entry key="file" value="C:/Users/sudha.rani.marimuthu/Documents/11565901/WIP/AOB/SampleAOBTester/Exports/TestApp5.csv"/>
+      <entry key="filetransport" value="local"/>
+      <entry key="filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="hasHeader">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="isSOMConnected">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Account reconciliation system for consolidated entities."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestApp5-Owners-Workgroup"/>
+  </Owner>
+  <Remediators>
+    <Reference class="sailpoint.object.Identity" name="TestApp5-Implementers-Workgroup"/>
+  </Remediators>
+  <Schemas>
+    <Schema displayAttribute="myAccessID" identityAttribute="myAccessID" nativeObjectType="account" objectType="account">
+      <AttributeDefinition name="myAccessID" type="string"/>
+      <AttributeDefinition entitlement="true" managed="true" multi="true" name="systemAccess" type="string"/>
+      <AttributeDefinition name="email" type="string"/>
+    </Schema>
+  </Schemas>
+  <ApplicationScorecard/>
+</Application>
