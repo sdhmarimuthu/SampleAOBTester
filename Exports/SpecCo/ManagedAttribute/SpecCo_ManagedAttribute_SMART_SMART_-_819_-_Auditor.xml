@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="SMART - 819 - Auditor" hash="dd84809aea1a4f4efc10b05b36cb234b3f632cfb" requestable="true" type="Entitlement" value="SMART - 819 - Auditor">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="SMART"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the SMART - 819 - Auditor asset in the SMART Account Reconciliation tool.  Legal Entity: Dupont Protein Technologies Internal Sales LLC t/a Solae"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

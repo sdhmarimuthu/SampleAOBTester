@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="SMART - 1261 - Auditor" hash="d77c4e6e882c5962c92247812994f327cdd03432" requestable="true" type="Entitlement" value="SMART - 1261 - Auditor">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="SMART"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the SMART - 1261 - Auditor asset in the SMART Account Reconciliation tool.  Legal Entity: DuPont Operations Italia S.r.L."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

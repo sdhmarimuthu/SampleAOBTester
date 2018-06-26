@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="SMART - 1639 - Approver" hash="de048713d62a9e07e47f0cf342631bdb36b83acf" requestable="true" type="Entitlement" value="SMART - 1639 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="SMART"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the SMART - 1639 - Approver asset in the SMART Account Reconciliation tool.  Legal Entity: Pannar Seed BV (Netherlands)"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="SMART - 1387 - Approver" hash="50447390dafacefcf98e551498e0446e6e18c5a6" requestable="true" type="Entitlement" value="SMART - 1387 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="SMART"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the SMART - 1387 - Approver asset in the SMART Account Reconciliation tool.  Legal Entity: DuPont Acquisition (Luxembourg) S.A.R.L."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
