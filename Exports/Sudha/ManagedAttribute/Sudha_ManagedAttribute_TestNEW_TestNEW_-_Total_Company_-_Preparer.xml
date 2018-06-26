@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="TestNEW - Total Company - Preparer" hash="b17c99a9189bd5e0a2dabc5dc9589a883a343877" requestable="true" type="Entitlement" value="TestNEW - Total Company - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="TestNEW"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="AssetOwnerOnly"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the TestNEW - Total Company - Preparer asset in the TestNEW Account Reconciliation tool."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestNEW-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="TestNEW - 1696 - Preparer" hash="374198b1b04198dc57c4ddced7b5df6a0a15265d" requestable="true" type="Entitlement" value="TestNEW - 1696 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="TestNEW"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the TestNEW - 1696 - Preparer asset in the TestNEW Account Reconciliation tool.  Legal Entity: Gladstone Merger Sub, Inc."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestNEW-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

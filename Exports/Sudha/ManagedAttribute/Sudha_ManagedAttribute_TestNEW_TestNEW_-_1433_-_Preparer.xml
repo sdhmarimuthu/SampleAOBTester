@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="TestNEW - 1433 - Preparer" hash="123f43b0908e18b3d2fd8960008e64953a7040c8" requestable="true" type="Entitlement" value="TestNEW - 1433 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="TestNEW"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the TestNEW - 1433 - Preparer asset in the TestNEW Account Reconciliation tool.  Legal Entity: Genencor International OY"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestNEW-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

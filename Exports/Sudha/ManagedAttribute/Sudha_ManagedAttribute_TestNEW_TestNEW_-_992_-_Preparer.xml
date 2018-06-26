@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="TestNEW - 992 - Preparer" hash="77d6b7d2662ea902c70aa11357b94a1f06205236" requestable="true" type="Entitlement" value="TestNEW - 992 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="TestNEW"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the TestNEW - 992 - Preparer asset in the TestNEW Account Reconciliation tool.  Legal Entity: ChemConnect"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestNEW-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="TestNEW - 946 - Preparer" hash="4f8c2824bc37d66d898d7cd9a55e814ed5c87fe7" requestable="true" type="Entitlement" value="TestNEW - 946 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="TestNEW"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the TestNEW - 946 - Preparer asset in the TestNEW Account Reconciliation tool.  Legal Entity: Grainfield Limited"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="TestNEW-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>
