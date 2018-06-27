@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 2450 - Local Administrator" hash="327a79fad0ffa9b8640ef5eec2c43e101d695b1c" requestable="true" type="Entitlement" value="Goddammit - 2450 - Local Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Goddammit"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 2450 - Local Administrator asset in the Goddammit Account Reconciliation tool.  Legal Entity: Du Pont (U.K.) Ltd."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

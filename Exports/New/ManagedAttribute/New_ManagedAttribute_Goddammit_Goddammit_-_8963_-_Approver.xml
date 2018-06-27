@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 8963 - Approver" hash="5c074c9f3c432d935a6e25807cadf9093df50b0b" requestable="true" type="Entitlement" value="Goddammit - 8963 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Goddammit"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 8963 - Approver asset in the Goddammit Account Reconciliation tool.  Legal Entity: MATERIAL SCIENCE DE MEXICO DDM  S DE RL DE CV"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

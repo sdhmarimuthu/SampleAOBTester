@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 8990 - Auditor" hash="84f3ec46543211c3bd73f02c45f9a0bae53418a3" requestable="true" type="Entitlement" value="Goddammit - 8990 - Auditor">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Goddammit"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 8990 - Auditor asset in the Goddammit Account Reconciliation tool.  Legal Entity: Performance Material Products Korea Ltd."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

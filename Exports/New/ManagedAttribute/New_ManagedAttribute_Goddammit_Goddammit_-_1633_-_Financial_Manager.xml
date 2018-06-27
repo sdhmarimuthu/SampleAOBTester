@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 1633 - Financial Manager" hash="f03a3295f1c099777fea4ce1356c963c5fac5461" requestable="true" type="Entitlement" value="Goddammit - 1633 - Financial Manager">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Goddammit"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 1633 - Financial Manager asset in the Goddammit Account Reconciliation tool.  Legal Entity: Pannar Research Farms (Pty) Ltd. (South Africa)"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
