@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Resolve - 8596 - Auditor" hash="efa7f0dcb75c34c684022ee48fcc04d0befa1e30" requestable="true" type="Entitlement" value="Resolve - 8596 - Auditor">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Resolve"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Resolve - 8596 - Auditor asset in the Resolve Account Reconciliation tool.  Legal Entity: SP Korea, LLC"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

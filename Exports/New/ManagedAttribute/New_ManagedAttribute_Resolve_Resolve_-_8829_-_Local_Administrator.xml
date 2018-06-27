@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Resolve - 8829 - Local Administrator" hash="4640a0a1ab212273c3f260bf306064a604cfba17" requestable="true" type="Entitlement" value="Resolve - 8829 - Local Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Resolve"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Resolve - 8829 - Local Administrator asset in the Resolve Account Reconciliation tool.  Legal Entity: FMC Alimentos, S.A. de C.V."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

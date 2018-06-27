@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Resolve - 8912 - System Administrator" hash="70b82c7335a9f46361bd28d4bdc7e9830fde67f7" requestable="true" type="Entitlement" value="Resolve - 8912 - System Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Resolve"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Resolve - 8912 - System Administrator asset in the Resolve Account Reconciliation tool.  Legal Entity: Performance Specialty Products Italy S.r.l."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

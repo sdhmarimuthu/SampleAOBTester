@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Resolve - 1442 - Local Administrator" hash="ba3ae3260eab9b23604b10f06dc7c3f8df2d05ba" requestable="true" type="Entitlement" value="Resolve - 1442 - Local Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Resolve"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Resolve - 1442 - Local Administrator asset in the Resolve Account Reconciliation tool.  Legal Entity: A/S Syntetic"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
