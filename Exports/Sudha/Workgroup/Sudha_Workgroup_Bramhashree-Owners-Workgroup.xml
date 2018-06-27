@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity name="Bramhashree-Owners-Workgroup" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="Bramhashree-Owners-Workgroup"/>
+      <entry key="email" value="user001@local.com"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</Identity>
