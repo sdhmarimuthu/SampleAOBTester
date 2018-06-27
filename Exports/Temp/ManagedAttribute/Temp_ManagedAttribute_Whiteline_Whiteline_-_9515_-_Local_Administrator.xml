@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Whiteline - 9515 - Local Administrator" hash="b5b3f7d6a724d6eaa1b958de5f8687d9b611b756" requestable="true" type="Entitlement" value="Whiteline - 9515 - Local Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Whiteline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Whiteline - 9515 - Local Administrator asset in the Whiteline Account Reconciliation tool.  Legal Entity: N&amp;H International Holding 2 B.V."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

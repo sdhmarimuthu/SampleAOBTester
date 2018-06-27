@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Whiteline - 2520 - Auditor" hash="c16ad6e57bfecb73a1d6075a39473407ba0fc690" requestable="true" type="Entitlement" value="Whiteline - 2520 - Auditor">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Whiteline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Whiteline - 2520 - Auditor asset in the Whiteline Account Reconciliation tool.  Legal Entity: DU PONT MEXICANA S. DE R.L. DE C.V."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Whiteline - 808 - Business Administrator" hash="7f1ec615ac62f1c8e8682b8e9cdbe978e94e22ee" requestable="true" type="Entitlement" value="Whiteline - 808 - Business Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Whiteline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Whiteline - 808 - Business Administrator asset in the Whiteline Account Reconciliation tool.  Legal Entity: Misr Pioneer Seed Company SAE"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

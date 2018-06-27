@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Whiteline - 1070 - Financial Manager" hash="e8918a20b3c77cdece8118d3fe164672546cb869" requestable="true" type="Entitlement" value="Whiteline - 1070 - Financial Manager">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Whiteline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Whiteline - 1070 - Financial Manager asset in the Whiteline Account Reconciliation tool.  Legal Entity: Pioneer Turks &amp; Caicos, LLC"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
