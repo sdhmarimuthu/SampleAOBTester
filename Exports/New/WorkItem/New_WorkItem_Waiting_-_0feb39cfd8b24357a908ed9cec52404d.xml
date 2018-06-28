@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE WorkItem PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<WorkItem expiration="1530188698291" handler="sailpoint.api.Workflower" level="Normal" name="Waiting - 0feb39cfd8b24357a908ed9cec52404d" type="Event">
+  <Attributes>
+    <Map>
+      <entry key="waitStepId" value="654937efa3c343bab00b72160ec2e527"/>
+    </Map>
+  </Attributes>
+  <WorkflowCaseRef>
+    <Reference class="sailpoint.object.WorkflowCase" name="Create Application - 38"/>
+  </WorkflowCaseRef>
+</WorkItem>

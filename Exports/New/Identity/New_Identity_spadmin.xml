@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity lastLogin="1530188397386" name="spadmin" password="1:p+qvPBo4Rig8PYlNWbr3Zg==" protected="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="The Administrator"/>
+      <entry key="email" value="sudha.rani.marimuthu@accenture.com"/>
+      <entry key="firstname" value="The"/>
+      <entry key="lastname" value="Administrator"/>
+    </Map>
+  </Attributes>
+  <UIPreferencesRef>
+    <Reference class="sailpoint.object.UIPreferences"/>
+  </UIPreferencesRef>
+  <Capabilities>
+    <Reference class="sailpoint.object.Capability" name="SystemAdministrator"/>
+  </Capabilities>
+  <Workgroups>
+    <Reference class="sailpoint.object.Identity" name="Testing-Owners-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Testing-Implementers-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="TestAppAOB-Owners-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="TestAppAOB-Implementers-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Bramhashree-Owners-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Bramhashree-Implementers-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Test-Owners-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Test-Implementers-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Test123-Owners-Workgroup"/>
+    <Reference class="sailpoint.object.Identity" name="Test123-Implementers-Workgroup"/>
+  </Workgroups>
+</Identity>

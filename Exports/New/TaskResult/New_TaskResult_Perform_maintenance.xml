@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskResult PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskResult completed="1530188400478" completionStatus="Success" host="CDC2-L-605214K" launched="1530188400127" launcher="System" name="Perform maintenance" runLengthAverage="2" runLengthDeviation="-100" schedule="Perform maintenance" type="System">
+  <Attributes>
+    <Map>
+      <entry key="certificationArchivesPruned" value="0"/>
+      <entry key="certificationItemsAutomaticallyDecided">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="certificationItemsPhased">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="certificationsArchived" value="0"/>
+      <entry key="certificationsAutomaticallyClosed">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="certificationsFinishFailures" value="0"/>
+      <entry key="certificationsFinished" value="0"/>
+      <entry key="certificationsPhased">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="certificationsPruned" value="0"/>
+      <entry key="continuousCertsProcessed">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="emailsSuppressed">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="historiesPruned" value="0"/>
+      <entry key="inactiveWorkItemsForwarded" value="0"/>
+      <entry key="itemsTransitionedToCertificationOverdue">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="itemsTransitionedToCertificationRequired">
+        <value>
+          <Integer>0</Integer>
+        </value>
+      </entry>
+      <entry key="provisioningTransactionsPruned" value="0"/>
+      <entry key="remediationsScanned" value="0"/>
+      <entry key="requestsPruned" value="0"/>
+      <entry key="scopesDenormalized" value="0"/>
+      <entry key="syslogEventsPruned" value="0"/>
+      <entry key="taskResultsPruned" value="0"/>
+      <entry key="workflowEvents" value="0"/>
+    </Map>
+  </Attributes>
+  <Definition>
+    <Reference class="sailpoint.object.TaskDefinition" name="Perform Maintenance"/>
+  </Definition>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</TaskResult>

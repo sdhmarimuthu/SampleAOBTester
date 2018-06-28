@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SyslogEvent classname="com.dupont.myaccess.ExportXMLObjects" eventLevel="ERROR" lineNumber="?" quickKey="0000000092" server="CDC2-L-605214K" thread="http-apr-7080-exec-6" username="spadmin">
+  <EventMessage>{fromDate=06/28/2018 17:49:33, basePath=C:/Users/sudha.rani.marimuthu/Documents/11565901/WIP/AOB/Exports/New/, namingFormat=New_$Class$_$Name$, addCData=true, classNames=[], removeIDs=true}</EventMessage>
+</SyslogEvent>
