@@ -37,9 +37,6 @@
   <Owner>
     <Reference class="sailpoint.object.Identity" name="Blackline_test_one-Owners-Workgroup"/>
   </Owner>
-  <Remediators>
-    <Reference class="sailpoint.object.Identity" name="Blackline_test_one-Implementers-Workgroup"/>
-  </Remediators>
   <Schemas>
     <Schema displayAttribute="myAccessID" identityAttribute="myAccessID" nativeObjectType="account" objectType="account">
       <AttributeDefinition name="myAccessID" type="string"/>
