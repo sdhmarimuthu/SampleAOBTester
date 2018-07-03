@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Trial3 - 604 - Business Administrator" hash="6883d8bddc8b13bc7bcd27e48c0e3ee94ce1665a" requestable="true" type="Entitlement" value="Trial3 - 604 - Business Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial3"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Trial3 - 604 - Business Administrator asset in the Trial3 Account Reconciliation tool.  Legal Entity: DPNL BV"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

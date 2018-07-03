@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Trial3 - 819 - Preparer" hash="b8d0cc120cc139946ce47f161ac65525910c218b" requestable="true" type="Entitlement" value="Trial3 - 819 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial3"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Trial3 - 819 - Preparer asset in the Trial3 Account Reconciliation tool.  Legal Entity: Dupont Protein Technologies Internal Sales LLC t/a Solae"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

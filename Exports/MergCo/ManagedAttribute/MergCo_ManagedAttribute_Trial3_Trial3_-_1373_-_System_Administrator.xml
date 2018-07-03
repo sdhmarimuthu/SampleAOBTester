@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Trial3 - 1373 - System Administrator" hash="55d2f1b4a27be28b4b67f9503a9ab3d5af4e2d44" requestable="true" type="Entitlement" value="Trial3 - 1373 - System Administrator">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial3"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Trial3 - 1373 - System Administrator asset in the Trial3 Account Reconciliation tool.  Legal Entity: MECS International Holding, Sarl"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Trial3 - 1310 - Approver" hash="011e568a9d3d6649a59c7c4c90743e52e3c7d27e" requestable="true" type="Entitlement" value="Trial3 - 1310 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial3"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Trial3 - 1310 - Approver asset in the Trial3 Account Reconciliation tool.  Legal Entity: Du Pont Apollo (Shenzhen) Limited"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

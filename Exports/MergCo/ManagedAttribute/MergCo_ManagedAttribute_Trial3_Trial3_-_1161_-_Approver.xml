@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Trial3 - 1161 - Approver" hash="cb6f5ece2b816284c7f0eac1c4e13742db4375ea" requestable="true" type="Entitlement" value="Trial3 - 1161 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial3"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Trial3 - 1161 - Approver asset in the Trial3 Account Reconciliation tool.  Legal Entity: Solae Investimentos Ltda."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>
