@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity name="AD_Application_Sample-Asset-Owner-Workgroup-1" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="AD_Application_Sample-Asset-Owner-Workgroup-1"/>
+    </Map>
+  </Attributes>
+  <Description>GUEST</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="11565901"/>
+  </Owner>
+</Identity>
