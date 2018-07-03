@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<SyslogEvent classname="com.dupont.myaccess.ExportXMLObjects" eventLevel="ERROR" lineNumber="?" quickKey="0000000091" server="CDC2-L-605214K" thread="http-apr-7080-exec-6" username="spadmin">
-  <EventMessage>time run: Thu Jun 28 17:49:33 IST 2018</EventMessage>
-</SyslogEvent>
