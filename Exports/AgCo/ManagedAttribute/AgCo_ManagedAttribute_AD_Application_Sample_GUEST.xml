@@ -17,6 +17,6 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" name="NewADAsset-Asset-Owner-Workgroup-1"/>
+    <Reference class="sailpoint.object.Identity" name="NewADAsset-Asset-Owner-Workgroup-2"/>
   </Owner>
 </ManagedAttribute>
