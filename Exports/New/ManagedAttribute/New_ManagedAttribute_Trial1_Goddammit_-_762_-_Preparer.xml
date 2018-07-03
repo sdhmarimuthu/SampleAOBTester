@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 762 - Preparer" hash="b0cab735e1ca3fd3bfe89e7e14b21cb6f6831c39" requestable="true" type="Entitlement" value="Goddammit - 762 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial1"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 762 - Preparer asset in the Goddammit Account Reconciliation tool.  Legal Entity: Solae Holdings LLC"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 347 - Approver" hash="a589c1ef7c2f1b8527fd5559fbdd8f7e211bacd9" requestable="true" type="Entitlement" value="Goddammit - 347 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial1"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 347 - Approver asset in the Goddammit Account Reconciliation tool.  Legal Entity: Hitachi Chemical DuPont MicroSystems L.L.C."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

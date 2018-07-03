@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Goddammit - 816 - Preparer" hash="df3bbff8d5d930d0279bc4c96b259e9dc90128de" requestable="true" type="Entitlement" value="Goddammit - 816 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Trial1"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Goddammit - 816 - Preparer asset in the Goddammit Account Reconciliation tool.  Legal Entity: Pioneer Overseas Corporation (Egypt)"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="ce4845"/>
+  </Owner>
+</ManagedAttribute>

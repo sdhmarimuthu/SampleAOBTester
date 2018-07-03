@@ -3,9 +3,9 @@
 <TaskDefinition name="Perform Maintenance" subType="task_item_type_system" type="System">
   <Attributes>
     <Map>
-      <entry key="TaskDefinition.runLengthAverage" value="2"/>
-      <entry key="TaskDefinition.runLengthTotal" value="564"/>
-      <entry key="TaskDefinition.runs" value="267"/>
+      <entry key="TaskDefinition.runLengthAverage" value="1"/>
+      <entry key="TaskDefinition.runLengthTotal" value="745"/>
+      <entry key="TaskDefinition.runs" value="433"/>
       <entry key="automaticallyCloseCertifications" value="true"/>
       <entry key="denormalizeScopes" value="true"/>
       <entry key="finishCertifications" value="true"/>
