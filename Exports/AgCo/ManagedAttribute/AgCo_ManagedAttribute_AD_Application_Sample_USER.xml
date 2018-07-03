@@ -17,6 +17,6 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+    <Reference class="sailpoint.object.Identity" name="AD_Application_Sample-Grantors-Workgroup"/>
   </Owner>
 </ManagedAttribute>
