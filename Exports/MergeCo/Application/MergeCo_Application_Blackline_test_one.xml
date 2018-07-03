@@ -22,7 +22,7 @@
       </entry>
       <entry key="isSOMConnected">
         <value>
-          <Boolean/>
+          <Boolean>true</Boolean>
         </value>
       </entry>
       <entry key="sysDescriptions">
