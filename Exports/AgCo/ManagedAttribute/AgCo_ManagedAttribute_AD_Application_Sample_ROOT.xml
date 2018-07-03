@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ManagedAttribute attribute="memberOf" displayName="SUPER_ADMIN" hash="dd9c4d40df55ee5763bf5faad107d8235b694784" requestable="true" type="Entitlement" value="SUPER_ADMIN">
+<ManagedAttribute attribute="memberOf" displayName="ROOT" hash="0db0f38c1ff7b8816c12f7b08c33ba15860668e1" requestable="true" type="Entitlement" value="ROOT">
   <ApplicationRef>
     <Reference class="sailpoint.object.Application" name="AD_Application_Sample"/>
   </ApplicationRef>
   <Attributes>
     <Map>
-      <entry key="approvalMode" value="ManagerOnly"/>
+      <entry key="approvalMode" value="Both"/>
       <entry key="sysDescriptions">
         <value>
           <Map>
-            <entry key="en_US" value="SUPER_ADMIN"/>
+            <entry key="en_US" value="ROOT"/>
           </Map>
         </value>
       </entry>

@@ -6,7 +6,7 @@
   </ApplicationRef>
   <Attributes>
     <Map>
-      <entry key="approvalMode" value="Both"/>
+      <entry key="approvalMode" value="AssetOwnerOnly"/>
       <entry key="sysDescriptions">
         <value>
           <Map>
@@ -17,6 +17,6 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" name="AD_Application_Sample-Asset-Owner-Workgroup-1"/>
+    <Reference class="sailpoint.object.Identity" name="NewADAsset-Asset-Owner-Workgroup-1"/>
   </Owner>
 </ManagedAttribute>

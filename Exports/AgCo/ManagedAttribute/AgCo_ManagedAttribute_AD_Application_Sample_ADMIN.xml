@@ -6,7 +6,7 @@
   </ApplicationRef>
   <Attributes>
     <Map>
-      <entry key="approvalMode" value="Both"/>
+      <entry key="approvalMode" value="ManagerOnly"/>
       <entry key="sysDescriptions">
         <value>
           <Map>
