@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ManagedAttribute attribute="memberOf" displayName="AgCo Sabrix / Approver" hash="6a584fe74e268fa1bdbccf922b68c57553961075" requestable="true" type="Entitlement" value="AgCo Sabrix / Approver">
+<ManagedAttribute attribute="memberOf" displayName="AgCo Sabrix / Approver" hash="5ce00246d52a9f9287341a75462c975ea9770bc2" requestable="true" type="Entitlement" value="AgCo Sabrix / Approver - 1">
   <ApplicationRef>
     <Reference class="sailpoint.object.Application" name="Phibred"/>
   </ApplicationRef>
