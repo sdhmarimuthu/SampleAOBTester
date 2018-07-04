@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity name="Sabrix-Grantors-Workgroup" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="Sabrix-Grantors-Workgroup"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="xx12345"/>
+  </Owner>
+</Identity>
