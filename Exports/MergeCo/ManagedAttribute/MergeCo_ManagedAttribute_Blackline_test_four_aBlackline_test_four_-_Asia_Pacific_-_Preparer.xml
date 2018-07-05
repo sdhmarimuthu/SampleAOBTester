@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="aBlackline_test_four - Asia Pacific - Preparer" hash="3a91e3505ed03d0f1cf242da284bb0f880395b68" requestable="true" type="Entitlement" value="Blackline_test_four - Asia Pacific - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline_test_four"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline_test_four - Asia Pacific - Preparer asset in the Blackline_test_one Account Reconciliation tool."/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline_test_four-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>
