@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 847 - Preparer" hash="d1a2d26cb9a2593ed495d52baf3011388920b426" requestable="true" type="Entitlement" value="Blackline - 847 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 847 - Preparer asset in the Blackline Account Reconciliation tool.  Legal Entity: Pioneer Overseas Corporation (Zimbabwe)"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

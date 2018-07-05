@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 8932 - Financial Manager" hash="a1c7e5c3180ae8e1f2b3eebda9e3b1e88b5b681b" requestable="true" type="Entitlement" value="Blackline - 8932 - Financial Manager">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 8932 - Financial Manager asset in the Blackline Account Reconciliation tool.  Legal Entity: DuPont Performance Materials International Srl"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

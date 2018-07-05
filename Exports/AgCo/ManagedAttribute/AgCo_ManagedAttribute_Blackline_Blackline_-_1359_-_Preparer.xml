@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 1359 - Preparer" hash="0f7a94feae57dad6a1a70b8983fea3a4fc060158" requestable="true" type="Entitlement" value="Blackline - 1359 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 1359 - Preparer asset in the Blackline Account Reconciliation tool.  Legal Entity: Du Pont de Nemours Nigeria Limited"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

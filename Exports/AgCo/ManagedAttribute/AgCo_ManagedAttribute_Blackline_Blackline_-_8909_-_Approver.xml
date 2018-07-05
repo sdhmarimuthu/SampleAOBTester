@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 8909 - Approver" hash="d2a20b9112f262bceb338c8168112a3f4fdf2176" requestable="true" type="Entitlement" value="Blackline - 8909 - Approver">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 8909 - Approver asset in the Blackline Account Reconciliation tool.  Legal Entity: DuPont Deutschland Real Estate Holding GmbH"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

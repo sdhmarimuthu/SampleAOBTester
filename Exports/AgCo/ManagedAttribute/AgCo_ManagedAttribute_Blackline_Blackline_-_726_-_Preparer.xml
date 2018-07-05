@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="systemAccess" displayName="Blackline - 726 - Preparer" hash="0db0e5ab3f524ee7c9cd3f898f805bc75aaf0cbe" requestable="true" type="Entitlement" value="Blackline - 726 - Preparer">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="Blackline"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="Both"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Requesting this access will give you access to the Blackline - 726 - Preparer asset in the Blackline Account Reconciliation tool.  Legal Entity: DuPont Teijin Films U.K. Limited"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Blackline-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>

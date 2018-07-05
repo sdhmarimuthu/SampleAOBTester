@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<ManagedAttribute attribute="memberOf" displayName="USER" hash="07de9c629b1929d4d929f6cbf27cf4139d9c350f" requestable="true" type="Entitlement" value="USER">
+  <ApplicationRef>
+    <Reference class="sailpoint.object.Application" name="AD_Application_Sample"/>
+  </ApplicationRef>
+  <Attributes>
+    <Map>
+      <entry key="approvalMode" value="AssetOwnerOnly"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="USER"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="NewADAsset1-Grantors-Workgroup"/>
+  </Owner>
+</ManagedAttribute>
