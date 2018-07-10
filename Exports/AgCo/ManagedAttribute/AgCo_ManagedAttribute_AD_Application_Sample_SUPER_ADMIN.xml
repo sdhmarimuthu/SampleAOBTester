@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ManagedAttribute attribute="memberOf" displayName="SUPER_ADMIN" hash="dd9c4d40df55ee5763bf5faad107d8235b694784" requestable="true" type="Entitlement" value="SUPER_ADMIN">
+<ManagedAttribute attribute="memberOf" displayName="SUPER_ADMIN" requestable="true" type="Entitlement" value="SUPER_ADMIN">
   <ApplicationRef>
     <Reference class="sailpoint.object.Application" name="AD_Application_Sample"/>
   </ApplicationRef>

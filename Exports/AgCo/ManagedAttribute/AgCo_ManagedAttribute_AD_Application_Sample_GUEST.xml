@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ManagedAttribute attribute="memberOf" displayName="GUEST" hash="3fc7c7310e76b900efcbd906bf10b2c6da5c2067" requestable="true" type="Entitlement" value="GUEST">
+<ManagedAttribute attribute="memberOf" displayName="GUEST" requestable="true" type="Entitlement" value="GUEST">
   <ApplicationRef>
     <Reference class="sailpoint.object.Application" name="AD_Application_Sample"/>
   </ApplicationRef>
@@ -17,6 +17,6 @@
     </Map>
   </Attributes>
   <Owner>
-    <Reference class="sailpoint.object.Identity" name="NewADAsset1-Asset-Owner-Workgroup-3"/>
+    <Reference class="sailpoint.object.Identity" name="NewADAsset1-Asset-Owner-Workgroup-4"/>
   </Owner>
 </ManagedAttribute>

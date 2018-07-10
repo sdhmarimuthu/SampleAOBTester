@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ManagedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<ManagedAttribute attribute="memberOf" displayName="USER" requestable="true" type="Entitlement" value="USER">
+<ManagedAttribute attribute="memberOf" displayName="ROOT1" requestable="true" type="Entitlement" value="ROOT1">
   <ApplicationRef>
     <Reference class="sailpoint.object.Application" name="AD_Application_Sample"/>
   </ApplicationRef>
   <Attributes>
     <Map>
-      <entry key="approvalMode" value="AssetOwnerOnly"/>
+      <entry key="approvalMode" value="Both"/>
       <entry key="sysDescriptions">
         <value>
           <Map>
-            <entry key="en_US" value="USER"/>
+            <entry key="en_US" value="ROOT1"/>
           </Map>
         </value>
       </entry>
