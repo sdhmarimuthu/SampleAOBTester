@@ -1,68 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application connector="sailpoint.connector.DelimitedFileConnector" name="Blackline" profileClass="" type="DelimitedFile">
+<Application connector="sailpoint.connector.DelimitedFileConnector" name="Blackline" type="DelimitedFile">
   <AccountCorrelationConfig>
     <Reference class="sailpoint.object.CorrelationConfig" name="myAccessID-CorrelationConfig"/>
   </AccountCorrelationConfig>
   <Attributes>
     <Map>
       <entry key="SOMDetails" value="NA"/>
-      <entry key="afterProvisioningRule"/>
-      <entry key="beforeProvisioningRule"/>
-      <entry key="columnNames"/>
-      <entry key="commentCharacter"/>
-      <entry key="compositeDefinition"/>
       <entry key="delimiter" value=","/>
-      <entry key="file" value="/root/Desktop/Blackline.csv"/>
-      <entry key="fileEncoding"/>
+      <entry key="file" value="C:/Users/sudha.rani.marimuthu/Documents/11565901/WIP/AOB/Exports/Blackline.csv"/>
       <entry key="filetransport" value="local"/>
       <entry key="filterEmptyRecords">
         <value>
           <Boolean>true</Boolean>
         </value>
       </entry>
-      <entry key="filterString"/>
       <entry key="hasHeader">
         <value>
           <Boolean>true</Boolean>
         </value>
       </entry>
-      <entry key="host"/>
-      <entry key="indexColumn"/>
-      <entry key="isCaseInsensitiveMerge">
-        <value>
-          <Boolean/>
-        </value>
-      </entry>
       <entry key="isSOMConnected">
-        <value>
-          <Boolean/>
-        </value>
-      </entry>
-      <entry key="isSortedByIndexColumn">
-        <value>
-          <Boolean/>
-        </value>
-      </entry>
-      <entry key="mergeColumns"/>
-      <entry key="mergeRows">
-        <value>
-          <Boolean/>
-        </value>
-      </entry>
-      <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
-      <entry key="nativeChangeDetectionAttributes"/>
-      <entry key="nativeChangeDetectionEnabled">
-        <value>
-          <Boolean/>
-        </value>
-      </entry>
-      <entry key="nativeChangeDetectionOperations"/>
-      <entry key="numberOfLinesToSkip"/>
-      <entry key="parseType" value="delimited"/>
-      <entry key="partitionObjectCount"/>
-      <entry key="regularExpression"/>
-      <entry key="stopIfLineHasWrongColumnLength">
         <value>
           <Boolean/>
         </value>
@@ -74,8 +32,6 @@
           </Map>
         </value>
       </entry>
-      <entry key="transportUser"/>
-      <entry key="transportUserPassword" value="1:BA7QR5zdX15IdpDAUew1Hg=="/>
     </Map>
   </Attributes>
   <Owner>
@@ -101,13 +57,10 @@
     <Reference class="sailpoint.object.Identity" name="Blackline-Implementers-Workgroup"/>
   </Remediators>
   <Schemas>
-    <Schema displayAttribute="myAccessID" identityAttribute="myAccessID" instanceAttribute="" nativeObjectType="account" objectType="account">
-      <AttributeDefinition name="myAccessID" type="string">
-        <Description/>
-      </AttributeDefinition>
-      <AttributeDefinition entitlement="true" managed="true" multi="true" name="systemAccess" type="string">
-        <Description/>
-      </AttributeDefinition>
+    <Schema displayAttribute="myAccessID" identityAttribute="myAccessID" nativeObjectType="account" objectType="account">
+      <AttributeDefinition name="myAccessID" type="string"/>
+      <AttributeDefinition entitlement="true" managed="true" multi="true" name="systemAccess" type="string"/>
     </Schema>
   </Schemas>
+  <ApplicationScorecard/>
 </Application>
