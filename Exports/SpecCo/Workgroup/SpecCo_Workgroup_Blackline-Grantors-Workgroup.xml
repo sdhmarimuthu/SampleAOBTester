@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Identity PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Identity lastLogin="1531978897941" lastRefresh="1531976884906" name="Blackline-Grantors-Workgroup" password="1:8zJwAXqvK5/b92JbPXLLKw==" workgroup="true">
+  <Attributes>
+    <Map>
+      <entry key="displayName" value="Blackline-Grantors-Workgroup"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="assetGranter1"/>
+  </Owner>
+  <Scorecard/>
+</Identity>
